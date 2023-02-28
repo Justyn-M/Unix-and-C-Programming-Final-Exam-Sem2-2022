@@ -1,0 +1,8 @@
+This short report for the Final Assessment of UCP addresses the imperfections of the modified langton's ant simulation.
+
+Imperfections/Issues:
+
+1) When ants are on a green, red or blue cell, the are printed behind the coloured cell.
+The user cannot see the ant on the terminal when this occurs but the ant is still moving accordingly to the simulation rules.
+
+2) When an ant crosses the boundaries of the grid, the program stops ant gives a segmentation fault.
